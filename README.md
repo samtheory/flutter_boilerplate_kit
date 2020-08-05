@@ -12,3 +12,5 @@ This project is a starting point for a Flutter application.
 * Mobx 
 * provider
 * Hive
+
+![anchor_image](https://raw.githubusercontent.com/gurleensethi/sailor/master/images/anchor-icon.png)
