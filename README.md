@@ -1,6 +1,6 @@
-# Flutter_boilerplate_kit
+# BoilerPlate Starter Kit
 
-A new Flutter project.
+A Flutter project useing Mobx and provider For states and Hive for database.
 
 ## Getting Started
 
