@@ -15,6 +15,11 @@ class HomePage extends StatelessWidget {
                       Routes.sailor.navigate(Routes.routeList.firstPage );
                     },
                     child: Text('HomePage')),
+                FlatButton(
+                    onPressed: () {
+                      Routes.sailor.navigate(Routes.routeList.apiPage );
+                    },
+                    child: Text('Get Api')),
               ],
             ),
           ),

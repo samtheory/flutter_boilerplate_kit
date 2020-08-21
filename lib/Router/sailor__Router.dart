@@ -1,4 +1,5 @@
 //      --- Libraries ---
+import 'package:Flutter_boilerplate_kit/Views/GetApi.dart';
 import 'package:flutter/material.dart';
 import 'package:sailor/sailor.dart';
 
@@ -10,6 +11,7 @@ class RouteList {
   //ToDo: Define Your Route name here
   String firstPage = '/FirstPage';
   String secPage = '/SecPage';
+  String apiPage = '/GetApi';
 }
 
 class Routes {
@@ -29,6 +31,12 @@ class Routes {
         name: routeList.secPage,
         builder: (context, args, paramMap) {
           return SecondPage(args);
+        },
+      ),
+      SailorRoute(
+        name: routeList.apiPage,
+        builder: (context, args, paramMap) {
+          return GetApiPage();
         },
       ),
     ]);
